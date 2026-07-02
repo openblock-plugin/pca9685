@@ -1,8 +1,7 @@
 /* eslint-disable func-style */
 /* eslint-disable max-len */
 /* eslint-disable require-jsdoc */
-export default () => {
-    return `
+export default () => `
 <category name="%{BKY_PCA9685_CATEGORY}" id="PCA9685_CATEGORY" colour="#9F4D95" secondaryColour="#8F4586">
     <block type="pca9685_init" id="pca9685_init">
         <value name="ADDR">
@@ -49,4 +48,3 @@ export default () => {
         </value>
     </block>
 </category>`;
-};
