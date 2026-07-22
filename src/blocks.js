@@ -30,6 +30,13 @@ export default Blockly => {
                 message0: Blockly.Msg.PCA9685_INIT,
                 args0: [
                     {
+                        type: 'field_dropdown',
+                        name: 'OE',
+                        options: [
+                            ['GND', 'GND']
+                        ]
+                    },
+                    {
                         type: 'input_value',
                         name: 'ADDR'
                     }

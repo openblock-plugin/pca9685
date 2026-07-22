@@ -45,7 +45,7 @@ export default {
     'blocks': {
         'en': {
             'PCA9685_CATEGORY': 'PCA9685',
-            'PCA9685_INIT': 'init pca9685 iic address %1',
+            'PCA9685_INIT': 'init pca9685 pin OE %1 iic address %2',
             'PCA9685_SETTOSERVOMODE': 'pca9685 set to servo mode',
             'PCA9685_SETSERVOANGLE': 'pca9685 set channel %1 servo angle %2',
             'PCA9685_SETALLSERVOANGLE': 'pca9685 set all servo angle %1',
@@ -55,7 +55,7 @@ export default {
         },
         'ru': {
             'PCA9685_CATEGORY': 'PCA9685',
-            'PCA9685_INIT': 'init pca9685 iic address %1',
+            'PCA9685_INIT': 'init pca9685 pin OE %1 iic address %2',
             'PCA9685_SETTOSERVOMODE': 'pca9685 set to servo mode',
             'PCA9685_SETSERVOANGLE': 'pca9685 set channel %1 servo angle %2',
             'PCA9685_SETALLSERVOANGLE': 'pca9685 set all servo angle %1',
@@ -65,7 +65,7 @@ export default {
         },
         'zh-cn': {
             'PCA9685_CATEGORY': 'PCA9685',
-            'PCA9685_INIT': 'init pca9685 iic address %1',
+            'PCA9685_INIT': 'init pca9685 pin OE %1 iic address %2',
             'PCA9685_SETTOSERVOMODE': 'pca9685 set to servo mode',
             'PCA9685_SETSERVOANGLE': 'pca9685 set channel %1 servo angle %2',
             'PCA9685_SETALLSERVOANGLE': 'pca9685 set all servo angle %1',
@@ -75,7 +75,7 @@ export default {
         },
         'zh-tw': {
             'PCA9685_CATEGORY': 'PCA9685',
-            'PCA9685_INIT': 'init pca9685 iic address %1',
+            'PCA9685_INIT': 'init pca9685 pin OE %1 iic address %2',
             'PCA9685_SETTOSERVOMODE': 'pca9685 set to servo mode',
             'PCA9685_SETSERVOANGLE': 'pca9685 set channel %1 servo angle %2',
             'PCA9685_SETALLSERVOANGLE': 'pca9685 set all servo angle %1',

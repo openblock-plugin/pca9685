@@ -1,6 +1,6 @@
 {
   "name": "pca9685",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "ArthurZheng",
   "license": "MIT",
   "repository": {
@@ -29,6 +29,9 @@
     "extensionId": "pca9685",
     "arch": [
       "arduino-*"
+    ],
+    "programMode": [
+      "upload"
     ],
     "iconURL": "./assets/pca9685.png",
     "description": {
